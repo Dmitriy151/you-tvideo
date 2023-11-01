@@ -47,22 +47,49 @@
 
     <section class="video-list">
       <div class="container">
-        <h2 class="video-list__title"></h2>
+        <h2 class="video-list__title">В тренде</h2>
 
         <ul class="video-list__items">
-          <li class="video-list__items">
+          <li class="video-list__item">
             <article class="video-card">
               <a href="/" class="video-card__link">
-                <img src="" alt="" class="video-card__thumbnail">
+                <img src="/you-tvideo/image/image1.jpg" alt="Превью видео Философия Идущего к реке" class="video-card__thumbnail">
+
+                <h3 class="video-card__title">Философия Идущего к реке</h3>
+                <p class="video-card__channel">Правое полушарие интроверта</p>
+                <p class="video-card__duration">31 мин 25 сек</p>
               </a>
-            </article>
+              <button class="video-card__favorite" type="button"></button>
+            </article>  
+          </li>
+
+          <li class="video-list__item">
+            <article class="video-card">
+              <a href="/" class="video-card__link">
+                <img src="/you-tvideo/image/image2.jpg" alt="Превью видео Как выжить в Средние века?" class="video-card__thumbnail">
+
+                <h3 class="video-card__title">Как выжить в Средние века?</h3>
+                <p class="video-card__channel">Правое полушарие интроверта</p>
+                <p class="video-card__duration">31 мин 25 сек</p>
+              </a>
+              <button class="video-card__favorite" type="button"></button>
+            </article>  
           </li>
         </ul>
       </div>
     </section>
 
-    <footer class="footer">
+    <!-- <a href="/" class="footer__link footer__link_favorite">Избранное</a> -->
 
+    <footer class="footer">
+      <div class="container footer__container">
+        <a href="/" class="footer__link">
+          <svg class="footer__logo" viewBox="0 0 360 48" role="img" aria-label="Логотип сервиса You-Tvideo">
+            <use xlink:href="/you-tvideo/image/sprite.svg#logo-white"></use>
+          </svg>
+        </a>
+
+      </div> 
     </footer>
   </main>
 
